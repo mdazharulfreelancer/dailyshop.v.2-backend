@@ -20,7 +20,7 @@ app.use(express.static("public"))
 
 
 app.use(cors({
-  origin: 'https://daily-shop-azharul.vercel.app', // Allow only this origin
+  origin: 'https://https://dailyshop-azharul.vercel.app', // Allow only this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
 }));
